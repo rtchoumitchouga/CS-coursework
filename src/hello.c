@@ -4,5 +4,6 @@
 int main(){
         char *user = getenv("USER");
         printf("Hello, %s\n", user);
+	printf("Goodbye, %s\n", user);
         return 0;
 }
