@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main(){
-        char *user = getenv("USER");
-        printf("Hello, %s\n", user);
-        return 0;
+	char name[50]; //declares data type
+    	printf("Enter your name: "); //asks for user input
+    	scanf("%99s", name); //gets user input
+    	printf("Hello, %s!\n", name); //prints Hello and the name
+	return 0;
 }
